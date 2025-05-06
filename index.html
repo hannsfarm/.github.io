@@ -1,3 +1,8 @@
+---
+<!-- Front matter: Jekyll이 이 파일을 인식하고 처리하게 만드는 메타 정보 블록 -->
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -7,13 +12,7 @@
 </head>
 <body>
 
-  <!-- ✅ 상단 내비게이션 -->
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </nav>
-
-  <h1>Hann’s Farm</h1>
+  {% include header.html %}
 
   <!-- ✅ 소개글 -->
   <section class="intro">
@@ -39,17 +38,19 @@
     <h6 style="text-align: right;">Spring 2025 — Hann</h6>
   </section>
 
- <!-- ✅ 올해의 포스트 목록 -->
- <ul class="item-list">
-  {% for post in site.posts %}
-    <li class="item">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-    </li>
-  {% endfor %}
-</ul>
-  
-
+  <!-- ✅ 올해의 포스트 목록 -->
+  <ul class="item-list">
+    {% if site.posts.size > 0 %}
+      {% for post in site.posts %}
+        <li class="item">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+        </li>
+      {% endfor %}
+    {% else %}
+      <li>❌ 포스트 없음</li>
+    {% endif %}
+  </ul>
 
 </body>
 </html>
