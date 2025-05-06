@@ -40,17 +40,14 @@
   </section>
 
  <!-- ✅ 올해의 포스트 목록 -->
-  <ul class="item-list">
+ <ul class="item-list">
+  {% for post in site.posts %}
     <li class="item">
-      <a href="posts/2025/2025-05-01-test.html">Minimal Blog</a>
-      <small>2025-05-01</small>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
     </li>
-    <li class="item">
-      <a href="posts/2025/2025-05-02-swift-tips.html">Swift Tips</a>
-      <small>2025-05-02</small>
-    </li>
-    <!-- ✨ 매일 여기만 복붙해서 추가하면 끝 -->
-  </ul>
+  {% endfor %}
+</ul>
   
 
 

@@ -1,0 +1,7 @@
+title: Hann’s Farm
+description: 매일 작은 씨앗을 심는 블로그
+baseurl: "" # GitHub Pages의 사용자/프로젝트 저장소인 경우에만 설정
+url: ""     # 배포 주소 (추후 GitHub Pages 설정 후 넣기)
+
+markdown: kramdown
+theme: minima # 일단 기본 테마로 시작 (커스텀도 가능)
