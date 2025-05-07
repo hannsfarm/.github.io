@@ -24,3 +24,6 @@ And someday, if even a few lines give someone a bit of inspiration, that’s eno
 ### How I’ll track my progress
 
 I started this project on May 4, 2025. At that time, my EF SET 50 score was 36 (A2 level). I'll write in English every day until the end of the year, then take the test again to see how much I've improved.
+
+![child-speaking-english](/assets/images/projects/2025-05-07-child-speaking-english.webp)
+

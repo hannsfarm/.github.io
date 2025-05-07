@@ -1,27 +1,13 @@
 ---
-layout: none
+layout: default
 title: Projects
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description }}">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<h1 style="border-bottom: 1px solid #d9d2c6; padding-bottom: 10px;">
+  {{ page.title | default: "Hann's Farm" }}
+</h1>
 
-  <!-- 네이게이션 -->
-  {% include header.html %}
-  
-  <h1 style="border-bottom: 1px solid #d9d2c6; padding-bottom: 10px;">
-    {{ page.title | default: "Hann's Farm" }}
-  </h1>
-
-  <!-- 프로젝트 목록 -->
+<!-- 프로젝트 목록 -->
 <ul class="item-list">
   {% if site.posts.size > 0 %}
     {% assign daily_posts = site.posts | where: "category", "projects" %}
@@ -32,13 +18,9 @@ title: Projects
       </li>
     {% endfor %}
     {% if daily_posts.size == 0 %}
-      <li>❌ 데일리 포스트 없음</li>
+      <li>no projects post</li>
     {% endif %}
   {% else %}
-    <li>❌ 포스트 없음</li>
+    <li>no post</li>
   {% endif %}
 </ul>
-
-
-</body>
-</html>

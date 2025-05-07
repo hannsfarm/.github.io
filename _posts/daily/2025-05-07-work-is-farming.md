@@ -22,4 +22,4 @@ don’t worry whether they grow perfectly or not.
 
 You’ll feel less pressure—and more satisfaction.
 
-![A farmer working in the field](/assets/images/daily/2025-05-07-test.png)
+![A farmer working in the field](/assets/images/daily/2025-05-07-farmer.webp)
