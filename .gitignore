@@ -8,5 +8,24 @@ _site/
 vendor/
 Gemfile.lock
 
+# Jekyll metadata
+.jekyll-metadata
+_drafts/
+
+# 임시 파일
+*.swp
+*.swo
+*~
+
 # macOS 특성
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 환경 설정
+.env
+.env.*
