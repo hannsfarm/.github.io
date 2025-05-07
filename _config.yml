@@ -1,0 +1,14 @@
+#_config.yml: 블로그 전반 설정을 관리하는 Jekyll의 전역 설정 파일
+
+title: Hann’s Farm
+description: A quiet blog where I plant and tend to small ideas each day—slowly, steadily, and in my own way.
+baseurl: "" # GitHub Pages의 사용자/프로젝트 저장소인 경우에만 설정
+url: "https://hannsfarm.github.io/" # 배포 주소 (추후 GitHub Pages 설정 후 넣기)
+
+collections:
+  posts:
+    output: true
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap # gemfile에서 설치한 플러그인 사용
