@@ -4,6 +4,7 @@ title: work is farming
 date: 2025-05-07
 category: daily
 description: A piece about working like a farmer—doing the day’s work without chasing results or trying to prove anything.
+image: /assets/images/daily/2025-05-07-farmer.webp
 author: Hann
 ---
 

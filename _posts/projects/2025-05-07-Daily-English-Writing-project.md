@@ -4,6 +4,7 @@ title: Daily english writing project
 date: 2025-05-07
 category: projects
 description: A daily posting project to practice English writing and slowly reach people who truly relate to my work.
+image: /assets/images/projects/2025-05-07-child-speaking-english.webp
 author: Hann
 ---
 

@@ -4,6 +4,7 @@ title: What If It’s Just Fear?
 date: 2025-05-08
 category: daily
 description: Endless preparation might not be about perfection — but about fear.
+image: /assets/images/daily/2025-05-08-pottery-process.webp
 author: Hann
 ---
 
